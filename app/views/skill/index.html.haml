@@ -1,0 +1,30 @@
+.wrapper-skill
+  .skill-background
+    .skill-box
+      .skill-box__upper
+        %h1 Skill
+      .skill-box__under
+        .skill-box__under__innerbox
+          .detail
+            .detail__lang
+              %h2 使用言語
+              .text-box-skill
+                %p 　Ruby/Ruby on Rails, Javascript, jQuery
+            .detail__db
+              %h2 データベース
+              .text-box-skill
+                %p 　MySQL
+            .detail__infra
+              %h2 インフラ関連
+              .text-box-skill
+                %p 　AWS(EC2、S3等), Heroku
+            .detail__tool
+              %h2 開発ツール
+              .text-box-skill
+                %p 　Github, Visual Studio Code
+            .detail__studying
+              %h2 現在勉強中の内容
+              .text-box-skill
+              %P 　
+        .top_btn-box
+          = render partial: 'shared/top_btn'
