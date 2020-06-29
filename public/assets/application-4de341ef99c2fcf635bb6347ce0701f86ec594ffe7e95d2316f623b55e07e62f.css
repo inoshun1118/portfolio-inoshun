@@ -455,43 +455,19 @@ legend {
   height: 400px;
   margin: 0 auto 0;
 }
-/* line 41, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under .works-photo__funding img {
+/* line 40, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo img {
   border-radius: 5px;
   width: 800px;
   height: 400px;
 }
-/* line 47, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under .works-photo__furimax73 {
-  width: 800px;
-  height: 400px;
-  margin: 0 auto 0;
-}
-/* line 51, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under .works-photo__furimax73 img {
-  border-radius: 5px;
-  width: 800px;
-  height: 400px;
-}
-/* line 57, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under .works-photo__chat-space {
-  width: 800px;
-  height: 400px;
-  margin: 0 auto 0;
-}
-/* line 61, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under .works-photo__chat-space img {
-  border-radius: 5px;
-  width: 800px;
-  height: 400px;
-}
-/* line 68, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 46, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail {
   width: 550px;
   height: 400px;
   margin-left: 60px;
 }
-/* line 72, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 50, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail h2 {
   font-size: 25px;
   display: block;
@@ -500,39 +476,39 @@ legend {
   line-height: 60px;
   border-bottom: solid 2px gray;
 }
-/* line 80, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 58, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail p {
   font-size: 20px;
 }
-/* line 83, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 61, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail a {
   font-size: 20px;
   font-family: 'Playfair Display', serif;
   text-decoration: none;
 }
-/* line 88, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 66, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail .text-box-works {
   margin-top: 15px;
 }
-/* line 91, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 69, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail__tittle {
   margin-top: 20px;
 }
-/* line 94, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 72, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail__url {
   margin-top: 20px;
 }
-/* line 97, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 75, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail__works-github {
   margin-top: 20px;
 }
-/* line 100, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 78, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under .detail__explanation {
   margin-top: 20px;
   width: 850px;
   height: 150px;
 }
-/* line 107, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 85, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box .top_btn-box-works {
   width: 100%;
   height: 50px;
