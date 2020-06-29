@@ -213,14 +213,14 @@ legend {
   width: 1000px;
   height: 1600px;
   margin: 70px auto 0;
-  opacity: 0.7;
 }
-/* line 17, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 16, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__upper {
   width: 100%;
   height: 100px;
   margin-bottom: 3px;
   background-color: white;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
 /* line 23, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
@@ -235,29 +235,31 @@ legend {
   width: 100%;
   height: 1100px;
   background-color: white;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   position: relative;
 }
-/* line 36, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 37, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox {
   display: flex;
 }
-/* line 38, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 39, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .photo {
   width: 300px;
   height: 400px;
   margin-left: 30px;
   margin-top: 30px;
-  background-color: yellowgreen;
+  background-image: url("myphoto.jpg");
+  background-position: center;
 }
-/* line 45, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 47, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail {
   width: 550px;
   height: 1400px;
   margin-left: 60px;
   margin-top: 30px;
 }
-/* line 50, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 52, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail h2 {
   font-size: 30px;
   display: block;
@@ -266,37 +268,37 @@ legend {
   line-height: 60px;
   border-bottom: solid 2px gray;
 }
-/* line 58, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 60, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail .text-box-profile {
   margin-top: 15px;
 }
-/* line 61, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 63, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__education {
   margin-top: 20px;
 }
-/* line 64, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 66, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__work-history {
   margin-top: 20px;
 }
-/* line 67, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 69, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__motive {
   margin-top: 20px;
 }
-/* line 69, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 71, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__motive h3 {
   font-size: 23px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 75, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 77, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__hobby {
   margin-top: 20px;
 }
-/* line 77, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 79, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under__innerbox .detail__hobby li {
   margin-left: 15px;
 }
-/* line 83, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
+/* line 85, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/profile_index.scss */
 .wrapper-profile .profile-background .profile-box__under .top_btn-box {
   width: 100%;
   height: 45px;
@@ -404,7 +406,7 @@ legend {
 
 /* line 1, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works {
-  height: 2000px;
+  height: 4000px;
   width: 100vw;
   position: relative;
 }
@@ -420,54 +422,77 @@ legend {
 /* line 12, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box {
   width: 1000px;
-  height: 1900px;
+  height: 3500px;
   margin: 70px auto 0;
-  opacity: 0.7;
   position: relative;
 }
-/* line 18, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 17, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__upper {
   width: 100%;
   height: 100px;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
-/* line 23, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 22, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__upper h1 {
   text-align: center;
   line-height: 100px;
   font-size: 50px;
   font-family: 'Playfair Display', serif;
 }
-/* line 30, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 29, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box__under {
   margin-top: 3px;
+  padding-top: 40px;
   width: 100%;
-  height: 500px;
-  background-color: white;
+  height: 1000px;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
-  position: relative;
 }
-/* line 37, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox {
-  display: flex;
-}
-/* line 39, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .works-photo {
-  width: 300px;
+/* line 36, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo {
+  width: 800px;
   height: 400px;
-  margin-left: 30px;
-  margin-top: 30px;
-  background-color: yellowgreen;
+  margin: 0 auto 0;
 }
-/* line 46, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail {
+/* line 41, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo__funding img {
+  border-radius: 5px;
+  width: 800px;
+  height: 400px;
+}
+/* line 47, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo__furimax73 {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto 0;
+}
+/* line 51, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo__furimax73 img {
+  border-radius: 5px;
+  width: 800px;
+  height: 400px;
+}
+/* line 57, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo__chat-space {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto 0;
+}
+/* line 61, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .works-photo__chat-space img {
+  border-radius: 5px;
+  width: 800px;
+  height: 400px;
+}
+/* line 68, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail {
   width: 550px;
-  height: 100%;
+  height: 400px;
   margin-left: 60px;
 }
-/* line 50, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail h2 {
+/* line 72, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail h2 {
   font-size: 25px;
   display: block;
   width: 250px;
@@ -475,36 +500,44 @@ legend {
   line-height: 60px;
   border-bottom: solid 2px gray;
 }
-/* line 58, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail p {
+/* line 80, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail p {
   font-size: 20px;
 }
-/* line 61, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail .text-box-works {
+/* line 83, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail a {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+/* line 88, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail .text-box-works {
   margin-top: 15px;
 }
-/* line 64, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail__tittle {
+/* line 91, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail__tittle {
   margin-top: 20px;
 }
-/* line 67, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail__url {
+/* line 94, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail__url {
   margin-top: 20px;
 }
-/* line 70, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail__works-github {
+/* line 97, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail__works-github {
   margin-top: 20px;
 }
-/* line 73, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
-.wrapper-works .works-background .works-box__under__innerbox .detail__explanation {
+/* line 100, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+.wrapper-works .works-background .works-box__under .detail__explanation {
   margin-top: 20px;
+  width: 850px;
+  height: 150px;
 }
-/* line 79, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
+/* line 107, /Users/inoshun/projects/portfolio-inoshun/app/assets/stylesheets/works_index.scss */
 .wrapper-works .works-background .works-box .top_btn-box-works {
   width: 100%;
   height: 50px;
   bottom: 10px;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.7);
   margin-top: 3px;
   padding-top: 10px;
   border-radius: 5px;
