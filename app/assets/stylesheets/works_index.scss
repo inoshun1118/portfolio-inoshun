@@ -38,25 +38,31 @@
           height: 400px;
           margin: 0 auto 0;
           &__funding{
-            width: 800px;
-            height: 400px;
-            border-radius: 5px;
-            background-image: url('funding.png');
-            background-position: center;
+            img{
+              border-radius: 5px;
+              width: 800px;
+              height: 400px;
+            }
           }
           &__furimax73{
             width: 800px;
             height: 400px;
-            border-radius: 5px;
-            background-image: url('funding.png');
-            background-position: center;
+            margin: 0 auto 0;
+            img{
+              border-radius: 5px;
+              width: 800px;
+              height: 400px;
+            }
           }
           &__chat-space{
             width: 800px;
             height: 400px;
-            border-radius: 5px;
-            background-image: url('funding.png');
-            background-position: center;
+            margin: 0 auto 0;
+            img{
+              border-radius: 5px;
+              width: 800px;
+              height: 400px;
+            }
           }
         }
         .detail{
